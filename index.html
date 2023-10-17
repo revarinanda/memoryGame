@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Emojis Twin</title>
+    <link rel="stylesheet" href="style.css" />
+    <script src="main.js" defer></script>
+  </head>
+  <body>
+
+    <button id="startButton"></button>
+  <audio id="backgroundMusic" loop>
+    <source src="sound/musik1.mp3" type="audio/mpeg">
+  </audio>
+
+    <img src="images/memory.png" width="50px" height="50px" />
+    <div class="game">
+      <div class="controls">
+        <button>Start</button>
+        <div class="stats">
+          <div class="moves">0 Moves</div>
+          <div class="timer">Time: 0 sec</div>
+        </div>
+      </div>
+      <div class="board-container">
+        <div class="board" data-dimension="4"></div>
+        <div class="win">YOU WIN!</div>
+      </div>
+    </div>
+  </body>
+</html>
